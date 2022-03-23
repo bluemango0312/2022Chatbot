@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'HSYuji-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSYuji-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ROKAFSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    width:500px;
+    margin:auto;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.589);
+}
+
+.conversation{
+    margin-top:100px;
+    border:3px solid pink;
+    padding:100px 20px;
+    border-radius: 5px;
+    font-family: 'HSYuji-Regular';
+    font-size: 20px;
+}
+
+.host{
+    margin-top:60px;
+}
+
+.input{
+    margin-top:50px;
+}
+
+.inputIcon{
+    width:300px;
+    height:25px;
+    border-radius: 5px;
+    border:2px solid pink;
+    box-shadow:1.5px 1.5px 1.5px 1.5px rgba(128, 128, 128, 0.397) inset;
+}
+
+.Gobutton{
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.GoBtn{
+    width:100px;
+    height:35px;
+    border-radius: 9px;
+    border:1.5px solid rgb(255, 145, 163);
+    color:rgb(255, 255, 255);
+    background-color: pink;
+    font-family: 'ROKAFSansMedium';
+}
+
+.GoBtn:active{
+    width:100px;
+    height:35px;
+    border-radius: 9px;
+    border:1.5px solid rgb(255, 145, 163);
+    color:rgb(255, 255, 255);
+    background-color: pink;
+    font-family: 'ROKAFSansMedium';
+    box-shadow: inset 2px 2px 2px rgb(231, 174, 183);
+}
